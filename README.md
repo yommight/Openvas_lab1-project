@@ -12,3 +12,12 @@ Incorrect feed synchronization or configuration.
 Permission issues affecting feed files or update processes.
 Feed synchronization services failing or becoming stuck.
 Proxy, firewall, or repository access restrictions.
+ Troubleshooting and Investigation
+The following troubleshooting steps are recommended:
+Check network connectivity: Confirm that the system can access the internet and resolve the required update server hostnames.
+Review update logs: Examine system and OpenVAS/GVM logs for synchronization errors or failed update attempts.
+Check feed synchronization status: Verify whether the vulnerability test feeds and other required data feeds are current.
+Verify available disk space: Ensure sufficient storage is available for feed downloads and processing.
+Check relevant services: Confirm that the Greenbone Vulnerability Management services are running correctly.
+Review configuration and permissions: Check feed settings, proxy configuration, and access permissions.
+Retry synchronization: After identifying and addressing any underlying issues, initiate a feed synchronization and monitor its progress.
